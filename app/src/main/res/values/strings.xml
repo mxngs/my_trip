@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mytrip</string>
+    <string name="title">My Trips</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="new_account">Create a new account</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="over_eighteen">Over 18?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="login">Login</string>
+    <string name="text_login">Please sing in to continue.</string>
+    <string name="sing_in">SING IN</string>
+    <string name="text_sing_up">Don\'t have an account?</string>
+    <string name="categories">Categories</string>
+    <string name="search">Search your destiny</string>
+    <string name="past_trips">Past Trips</string>
+    <string name="locale">You\'re in Paris</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mytrip</string>
+    <string name="title">Minhas Viagens</string>
+    <string name="sing_up">Cadastre-se</string>
+    <string name="new_account">Crie uma nova conta</string>
+    <string name="username">Nome de Usuário</string>
+    <string name="phone">Telefone</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="over_eighteen">Maior de 18?</string>
+    <string name="create_account">CRIAR CONTA</string>
+    <string name="login">Login</string>
+    <string name="text_login">Faça Login para continuar</string>
+    <string name="sing_in">Entrar</string>
+    <string name="text_sing_up">Não tem uma conta?</string>
+    <string name="categories">Categorias</string>
+    <string name="search">Procure seu destino</string>
+    <string name="past_trips">Viagens Anteriores</string>
+    <string name="locale">Você está em Paris</string>
+</resources>

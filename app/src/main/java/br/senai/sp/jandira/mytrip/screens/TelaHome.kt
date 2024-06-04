@@ -159,7 +159,7 @@ fun HomePage(controleDeNavegacao: NavHostController) {
                                 )
                             }
                             Text(
-                                text = "Murilo Carolino",
+                                text = "Gabgab",
                                 fontSize = 12.sp,
                                 color = Color.White
                             )

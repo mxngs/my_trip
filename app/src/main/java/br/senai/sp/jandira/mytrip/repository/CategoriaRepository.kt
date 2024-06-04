@@ -13,28 +13,29 @@ class CategoriaRepository {
     @Composable
     fun listarTodasCategorias(context: Context): List<Categorias>{
 
-        val categoriaMontain= Categorias()
-        categoriaMontain.id = 1
-        categoriaMontain.categoria = "Mountain"
-        categoriaMontain.imagem = painterResource(id = R.drawable.montanha)
+        val montanha = Categorias()
+        montanha.id = 1
+        montanha.categoria = "Montain"
+        montanha.imagem = painterResource(id = R.drawable.montanha)
 
-        val categoriaSnow= Categorias()
-        categoriaSnow.id = 2
-        categoriaSnow.categoria = "Snow"
-        categoriaSnow.imagem = painterResource(id = R.drawable.neve)
+        val neve = Categorias()
+        neve.id = 2
+        neve.categoria = "Snow"
+        neve.imagem = painterResource(id = R.drawable.neve)
 
-        val categoriaBeach= Categorias()
-        categoriaBeach.id = 3
-        categoriaBeach.categoria = "Beach"
-        categoriaBeach.imagem = painterResource(id = R.drawable.guarda_sol)
+        val praia = Categorias()
+        praia.id = 3
+        praia.categoria = "Beach"
+        praia.imagem = painterResource(id = R.drawable.guarda_sol)
 
-        val categorias = listOf(
-            categoriaMontain,
-            categoriaBeach,
-            categoriaSnow
+        val interior = Categorias()
+        interior.id = 4
+        interior.categoria = "countryside"
+        interior.imagem = painterResource(id = R.drawable.interior
         )
 
-        return categorias
+        return listOf(montanha, neve, praia, interior)
+
 
     }
 

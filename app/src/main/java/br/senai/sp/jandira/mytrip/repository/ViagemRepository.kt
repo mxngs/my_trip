@@ -12,57 +12,49 @@ class ViagemRepository {
     fun listarTodasAsViagens(context: Context): List<Viagem> {
 
 
-        val viagemLondres = Viagem()
-        viagemLondres.id = 1
-        viagemLondres.destino = "Londres"
-        viagemLondres.descricao =
-            "Londres, capital da Inglaterra e do Reino Unido, é uma cidade do século 21 com uma história que remonta à era romana. "
-        viagemLondres.dataChegada = LocalDate.of(2023, 7, 18)
-        viagemLondres.dataPartida = LocalDate.of(2023, 7, 25)
-        viagemLondres.imagem = painterResource(id = R.drawable.london)
+        val londres = Viagem()
+        londres.id = 1
+        londres.destino = "Londres"
+        londres.descricao = "Londres, capital da Inglaterra e do Reino Unido, é uma cidade do século 21 com uma história que remonta à era romana."
+        londres.dataChegada = LocalDate.of(2019, 2, 18)
+        londres.dataChegada = LocalDate.of(2019, 2, 21)
+        londres.imagem = null
 
-        val viagemParis = Viagem()
-        viagemParis.id = 2
-        viagemParis.destino = "Paris"
-        viagemParis.descricao =
-            "Paris, a capital da França, é uma importante cidade europeia e um centro mundial de arte, moda, gastronomia e cultura.  "
-        viagemParis.dataChegada = LocalDate.of(2023, 7, 26)
-        viagemParis.dataPartida = LocalDate.of(2023, 8, 4)
-        viagemParis.imagem = painterResource(id = R.drawable.paris2)
+        val porto = Viagem()
+        porto.id = 2
+        porto.destino = "Porto"
+        porto.descricao = "Porto é uma cidade costeira no noroeste de Portugal conhecida pelas pontes imponentes e pela produção de vinho do Porto."
+        porto.dataChegada = LocalDate.of(2022, 11, 3)
+        porto.dataChegada = LocalDate.of(2022, 11, 12)
+        porto.imagem = painterResource(id = R.drawable.porto)
 
-        val viagemPorto = Viagem()
-        viagemPorto.id = 3
-        viagemPorto.destino = "Porto"
-        viagemPorto.descricao =
-            "Porto é uma cidade costeira no noroeste de Portugal conhecida pelas pontes imponentes e pela produção de vinho do Porto. "
-        viagemPorto.dataChegada = LocalDate.of(2022, 12, 24)
-        viagemPorto.dataPartida = LocalDate.of(2022, 12, 28)
-        viagemPorto.imagem = painterResource(id = R.drawable.porto)
+        val italia = Viagem()
+        italia.id = 3
+        italia.destino = "Italia"
+        italia.descricao = "O Japão, país insular no Oceano Pacífico, tem cidades densas, palácios imperiais, parques nacionais montanhosos e milhares de santuários e templos."
+        italia.dataChegada = LocalDate.of(2024, 4, 14)
+        italia.dataChegada = LocalDate.of(2024, 4, 24)
+        italia.imagem = painterResource(id = R.drawable.italiaaa)
 
-        val viagemMaldivas = Viagem()
-        viagemMaldivas.id = 4
-        viagemMaldivas.destino = "Maldivas"
-        viagemMaldivas.descricao =
-            "Maldivas é conhecido pelas praias, pelas lagoas azuis e pelos extensos recifes.  "
-        viagemMaldivas.dataChegada = LocalDate.of(2019, 5, 15)
-        viagemMaldivas.dataPartida = LocalDate.of(2019, 5, 17)
-        viagemMaldivas.imagem = painterResource(id = R.drawable.maldivas)
+        val japao = Viagem()
+        japao.id = 4
+        japao.destino = "Japão"
+        japao.descricao = "O Japão, país insular no Oceano Pacífico, tem cidades densas, palácios imperiais, parques nacionais montanhosos e milhares de santuários e templos."
+        japao.dataChegada = LocalDate.of(2015, 7, 5)
+        japao.dataChegada = LocalDate.of(2015, 7, 15)
+        japao.imagem = painterResource(id = R.drawable.japaoimgg)
 
-        val viagemLencoisMaranhenses = Viagem()
-        viagemLencoisMaranhenses.id = 4
-        viagemLencoisMaranhenses.destino = "Lençóis Maranhenses"
-        viagemLencoisMaranhenses.descricao =
-            "É conhecido pela sua vasta paisagem desértica de grandes dunas de areia branca e pelas lagoas sazonais de água da chuva. "
-        viagemLencoisMaranhenses.dataChegada = LocalDate.of(2022, 5, 15)
-        viagemLencoisMaranhenses.dataPartida = LocalDate.of(2022, 5, 17)
-        viagemLencoisMaranhenses.imagem = painterResource(id = R.drawable.maranhao)
+        val colombia = Viagem()
+        colombia.id = 5
+        colombia.destino = "Colômbia"
+        colombia.descricao = "A Colômbia é um país no extremo norte da América do Sul. Sua paisagem é marcada por florestas tropicais, pela Cordilheira dos Andes e por várias plantações de café. "
+        colombia.dataChegada = LocalDate.of(2024, 1, 3)
+        colombia.dataChegada = LocalDate.of(2024, 1, 12)
+        colombia.imagem = null
+
 
         val viagens = listOf(
-            viagemMaldivas,
-            viagemLencoisMaranhenses,
-            viagemPorto,
-            viagemLondres,
-            viagemParis
+            londres, porto, italia, japao, colombia
         )
 
         return viagens
